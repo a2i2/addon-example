@@ -4,43 +4,19 @@
 ![Project Stage][project-stage-shield]
 [![License][license-shield]](LICENSE.md)
 
-![Supports armhf Architecture][armhf-shield]
-![Supports armv7 Architecture][armv7-shield]
+<!-- ![Supports armhf Architecture][armhf-shield] -->
+<!-- ![Supports armv7 Architecture][armv7-shield] -->
+
 ![Supports aarch64 Architecture][aarch64-shield]
-![Supports amd64 Architecture][amd64-shield]
-![Supports i386 Architecture][i386-shield]
+
+<!-- ![Supports amd64 Architecture][amd64-shield] -->
+<!-- ![Supports i386 Architecture][i386-shield] -->
 
 [![Github Actions][github-actions-shield]][github-actions]
 ![Project Maintenance][maintenance-shield]
 [![GitHub Activity][commits-shield]][commits]
 
-[![Discord][discord-shield]][discord]
-[![Community Forum][forum-shield]][forum]
-
-[![Sponsor Frenck via GitHub Sponsors][github-sponsors-shield]][github-sponsors]
-
-[![Support Frenck on Patreon][patreon-shield]][patreon]
-
-Example add-on by Community Home Assistant add-ons.
-
-## About
-
-This is an example add-on for Home Assistant. When started, it displays a
-random quote every 5 seconds.
-
-It shows off several features and structures like:
-
-- Full blown GitHub repository.
-- General Dockerfile structure and setup.
-- The use of the `config.json` and `build.json` files.
-- General structure on how to use S6 overlay with services.
-- Basic usage of Bashio.
-- Continuous integration and deployment using GitHub Actions.
-- Deployment to the GitHub Container registry.
-- Small use of the Bash function library in our base images.
-- The use of Docker label schema.
-
-[:books: Read the full add-on documentation][docs]
+This add-on subscribes to events on the Home Assistant websocket and pushes them to a Google Cloud Pub/Sub topic.
 
 ## Support
 
@@ -121,14 +97,10 @@ SOFTWARE.
 [frenck]: https://github.com/frenck
 [github-actions-shield]: https://github.com/hassio-addons/addon-example/workflows/CI/badge.svg
 [github-actions]: https://github.com/hassio-addons/addon-example/actions
-[github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
-[github-sponsors]: https://github.com/sponsors/frenck
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [issue]: https://github.com/hassio-addons/addon-example/issues
 [license-shield]: https://img.shields.io/github/license/hassio-addons/addon-example.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
-[patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
-[patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [reddit]: https://reddit.com/r/homeassistant
 [releases-shield]: https://img.shields.io/github/release/hassio-addons/addon-example.svg
