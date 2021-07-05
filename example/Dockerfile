@@ -5,11 +5,11 @@ FROM ${BUILD_FROM}
 # Install system dependencies.
 RUN apk update && \
     apk add --no-cache \
-       g++ \
-       musl-dev \
-       libffi-dev \
-       python3-dev \
-       py3-pip
+       g++=10.3.1_git20210424-r2 \
+       musl-dev=1.2.2-r3 \
+       libffi-dev=3.3-r2 \
+       python3-dev=3.9.5-r1 \
+       py3-pip=20.3.4-r1
 
 # Install Python dependencies.
 COPY requirements.txt /
