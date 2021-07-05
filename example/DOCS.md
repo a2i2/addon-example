@@ -1,12 +1,14 @@
 # Home Assistant to Pub/Sub
 
-This add-on subscribes to events on the Home Assistant websocket and pushes them to a Google Cloud Pub/Sub topic.
+This add-on subscribes to events on the Home Assistant websocket
+and pushes them to a Google Cloud Pub/Sub topic.
 
 ## Installation
 
-1. Install the repository in the Supervisor add-on store (https://github.com/a2i2/hassio-addons).
-2. Open and install the `Home Assistant to Pub/Sub` add-on.
-3. Set the config as described below.
+1. Install the [repository](https://github.com/a2i2/hassio-addons)
+   in the Supervisor add-on store.
+1. Open and install the `Home Assistant to Pub/Sub` add-on.
+1. Set the config as described below.
 
 ## Configuration
 
@@ -31,14 +33,14 @@ filter:
 This add-on can be run locally by doing the following:
 
 1. Make sure Home Assistant is running.
-2. Run `pip3 install --user -r requirements.txt` to install dependencies.
-3. Set the following environment variables:
+1. Run `pip3 install --user -r requirements.txt` to install dependencies.
+1. Set the following environment variables:
 
 - `HOME_ID`: Unique identifier for the home
 - `SERVICE_ACCOUNT_JSON`: GCP service account JSON content
 - `ACCESS_TOKEN`: Home Assistant personal access token
 
-4. Run `python3 main.py`.
+1. Run `python3 main.py`.
 
 ## Changelog & Releases
 
