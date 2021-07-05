@@ -38,7 +38,7 @@ FILTER=os.getenv("FILTER", DEFAULT_FILTER)
 WEBSOCKET_URL=os.getenv("WEBSOCKET_URL", "ws://homeassistant.local:8123/api/websocket")
 GCP_PROJECT_ID=get_required_env("GCP_PROJECT_ID")
 PUBSUB_TOPIC_NAME=os.getenv("PUBSUB_TOPIC_NAME", "home-assistant-events")
-PUBSUB_TOPIC= f"projects/{GCP_PROJECT_ID}/topics/${PUBSUB_TOPIC_NAME}"
+PUBSUB_TOPIC= f"projects/{GCP_PROJECT_ID}/topics/{PUBSUB_TOPIC_NAME}"
 
 # Create entity filter.
 # @TODO: Validate filters against a schema
