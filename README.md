@@ -16,7 +16,8 @@
 ![Project Maintenance][maintenance-shield]
 [![GitHub Activity][commits-shield]][commits]
 
-This add-on subscribes to events on the Home Assistant websocket and pushes them to a Google Cloud Pub/Sub topic.
+This add-on subscribes to events on the Home Assistant websocketand pushes them
+to a Google Cloud Pub/Sub topic.
 
 ## Support
 
