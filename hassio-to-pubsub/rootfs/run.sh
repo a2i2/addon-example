@@ -6,7 +6,9 @@ set -euo pipefail
 # Load configurable options from options.json.
 echo "Loading configuration..."
 home_id="$(bashio::config 'home_id')"
+gcp_project_id="$(bashio::config 'gcp_project_id')"
 export HOME_ID="${home_id}"
+export GCP_PROJECT_ID="${gcp_project_id}"
 
 # Load GCP service account.
 service_account_json="$(bashio::config 'service_account_json')"
