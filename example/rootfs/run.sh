@@ -3,11 +3,10 @@
 # Fail hard on errors.
 set -euo pipefail
 
-CONFIG_PATH="/data/options.json"
-
 # Load configurable options from options.json.
 echo "Loading configuration..."
-export HOME_ID="$(bashio::config 'home_id')"
+home_id="$(bashio::config 'home_id')"
+export HOME_ID="${home_id}"
 
 # Load GCP service account.
 service_account_json="$(bashio::config 'service_account_json')"
