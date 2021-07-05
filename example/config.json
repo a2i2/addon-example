@@ -5,8 +5,6 @@
   "description": "Publishes Home Assistant events from multiple homes to Google Pub/Sub",
   "url": "https://github.com/a2i2/hassio-addon-pubsub",
   "arch": ["aarch64"],
-  "startup": "application",
-  "boot": "auto",
   "homeassistant_api": true,
   "options": {
     "home_id": null,
