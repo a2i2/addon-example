@@ -17,7 +17,8 @@
 [![GitHub Activity][commits-shield]][commits]
 
 This add-on subscribes to events on the Home Assistant websocket and pushes them
-to a Google Cloud Pub/Sub topic.
+to a Google Cloud Pub/Sub topic. Messages are associated with a `home_id` that
+is used to distinguish between different Home Assistant installations.
 
 ## Authors & contributors
 
@@ -46,7 +47,7 @@ check [the contributor's page][contributors].
 [issue]: https://github.com/a2i2/addon-example/issues
 [license-shield]: https://img.shields.io/github/license/a2i2/addon-example.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
-[project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
+[project-stage-shield]: https://img.shields.io/badge/project%20stage-in%20development-red.svg
 [reddit]: https://reddit.com/r/homeassistant
 [releases-shield]: https://img.shields.io/github/release/a2i2/addon-example.svg
 [releases]: https://github.com/a2i2/addon-example/releases
