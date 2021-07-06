@@ -20,4 +20,4 @@ export GOOGLE_APPLICATION_CREDENTIALS="/service_account.json"
 export WEBSOCKET_URL="http://supervisor/core/websocket"
 export ACCESS_TOKEN="${SUPERVISOR_TOKEN}"
 
-python3 /usr/local/src/hassio-to-pubsub/main.py
+python3 /usr/local/src/pubsub/main.py
